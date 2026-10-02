@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Rodapé {
+    background-color: #1e293b; 
+    padding: 10px 20px;          /* Espaçamento interno (cima/baixo e lados) */
+    width: 100%;
+    display: flex;
+    margin-top: -5px;
+    justify-content: center;
+}
+.menu ul {/* Transforma os itens da lista <ul> em uma linha horizontal */
+    list-style: none;  /* Remove as bolinhas do HTML */
+    display: flex;     /* Coloca os itens lado a lado */
+    gap: 20px;         /* Espaço entre um link e outro */
+    font-size: 15px;
+}
+.menu a {
+    color: #ffffff;
+    text-decoration: none; /* Tira o sublinhado */
+    font-weight: 500;
+    transition: 0.3s;      /* Deixa a mudança de cor suave */
+}
+.menu a:hover {/* O que acontece quando passa o ponteiro do mouse por cima do link */
+    color: #9c312d; /* Muda para azul claro */
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.banner {
+    width: 100vh;
+    margin-top: auto;
+}

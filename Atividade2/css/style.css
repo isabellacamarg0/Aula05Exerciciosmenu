@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.Rodapé {
+    background-color: #000000; 
+    padding: 10px 20px;          /* Espaçamento interno (cima/baixo e lados) */
+    width: 100%;
+    display: flex;
+    margin-top: auto;
+    justify-content: center;
+}
+.simbolos{
+    display: flex;
+    align-items:center; /* Alinha na altura certinha */
+    gap: 40px;        
+}
+.simbolos img{
+    width: 45px;
+    height: 45px;
+}
